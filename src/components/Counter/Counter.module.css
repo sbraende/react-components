@@ -1,0 +1,35 @@
+.counterCard {
+  width: 30%;
+  height: 20%;
+  min-width: 400px;
+  background-color: var(--primary-Color);
+  border-radius: var(--border-radius-medium);
+  display: flex;
+  align-items: center;
+  gap: var(--space-large);
+  justify-content: center;
+  font-family: BebasNeue-Regular, Arial, sans-serif;
+  font-size: var(--large-font-size);
+}
+.increaseButton,
+.decreaseButton {
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: var(--border-radius-small);
+  border: 2px solid var(--border-color);
+  background-color: var(--secondary-color);
+  transition: 0.3s;
+}
+.increaseButton:hover,
+.decreaseButton:hover {
+  background-color: var(--hover-color);
+}
+.countDisplay {
+  min-width: 160px;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--secondary-color);
+  border-radius: var(--border-radius-small);
+}
