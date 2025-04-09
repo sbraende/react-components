@@ -1,0 +1,12 @@
+.button {
+  padding: var(--space-medium) var(--space-large);
+  border-radius: var(--border-radius-small);
+  background-color: var(--primary-Color);
+  border: 0;
+  font-family: BebasNeue-Regular;
+  font-size: var(--base-font-size);
+}
+
+.button:hover {
+  opacity: 0.8;
+}
