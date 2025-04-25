@@ -6,11 +6,13 @@ import Counter from "./components/Counter/Counter";
 import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
 import Input from "./components/Input/Input";
 import Spinner from "./components/Spinner/Spinner";
+import WeatherWidget from "./components/WeatherWidget/WeatherWidget";
 
 function App() {
   return (
     <div className={styles.rootContainer}>
-      <ErrorMessage message={"Failed to fetch the data"} errorLogo={"❌"} />
+      {/* <WeatherWidget /> */}
+      {/* <ErrorMessage message={"Failed to fetch the data"} errorLogo={"❌"} /> */}
       {/* <Spinner /> */}
       {/* <Accordion /> */}
       {/* <Input
